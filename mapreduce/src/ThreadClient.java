@@ -105,7 +105,6 @@ public class ThreadClient extends Thread{
 			
 			String str = getInputStream();
 			System.out.println("Message du client : " + str);
-			System.out.println("test");
 			str = str.replace("[", " ");
 			str = str.replace("]", " ");
 			str = str.replace(",", " ");
@@ -116,9 +115,7 @@ public class ThreadClient extends Thread{
 			ArrayList<String> words = new ArrayList<String>(Arrays.asList(arrayStringWords));
 			
 			MapClass mapper = new MapClass(words);
-			mapper.getMap().remove("");
-			System.out.println(mapper.getMap().size());
-			
+			mapper.getMap().remove("");			
 			
 			sendOutputStream(mapper.getMap());
 			

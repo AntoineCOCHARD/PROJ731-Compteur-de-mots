@@ -64,9 +64,10 @@ public class Main {
             clients.add(cli);
         }
         time = System.currentTimeMillis()-debut;
-        log += "Threads map créés. Temps : " + time + "\n";
-
+        log += "Fin création threads map. Temps : " + time + "\n";
         
+        time = System.currentTimeMillis()-debut;
+        log += "Début récupération des maps. Temps : " + time + "\n";
         //Récupération des résultats des maps
         for(Client c:clients) {
         	String data = c.getInputStream();
