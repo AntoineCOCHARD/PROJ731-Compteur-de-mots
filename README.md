@@ -5,7 +5,7 @@ Projet réalisé en Java.
 
 # Description du programme
 
-- Premièrement le programme lit le fichier donné en entrée et compte le nombre de mmots qu'il contient
+- Premièrement le programme lit le fichier donné en entrée et compte le nombre de mots qu'il contient
 
 - Ensuite, par un calcul logarithmique, il determine combien de threads sont créés pour réaliser les maps
 
