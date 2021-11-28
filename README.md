@@ -7,9 +7,9 @@ Projet réalisé en Java.
 
 - Premièrement le programme lit le fichier donné en entrée et compte le nombre de mots qu'il contient
 
-- Ensuite, par un calcul logarithmique, il determine combien de threads sont créés pour réaliser les maps
+- Ensuite, par un calcul logarithmique, il determine combien de threads à créer pour réaliser les maps
 
-- Les threads sont donc créés et leurs mots associés leurs sont transmis
+- Les threads sont donc créés et leurs mots associés leur sont transmis
 
 - Quand toutes les maps sont créées on les récupères pour n'en faire qu'une seule, qui sera notre résultat 
 
